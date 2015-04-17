@@ -1,0 +1,21 @@
+{
+  "name": "common-project",
+  "version": "0.0.8",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DmitryMakhnev/commonJSDevEnvironment.git"
+  },
+  "authors": [
+    "Dmitry Makhnev <dmitry.ivshin@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "./src/app.js",
+  "publicInit": "./src/init.js",
+  "umdName": "common-project",
+  "dist": "./dist",
+  "publicDir": "./public/scripts/",
+  "dependencies": {
+    "react": "~0.13.1",
+    "react-bootstrap": "~0.20.3"
+  }
+}

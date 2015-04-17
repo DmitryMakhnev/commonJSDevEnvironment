@@ -1,0 +1,36 @@
+{
+  "name": "common-project",
+  "version": "0.0.8",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DmitryMakhnev/commonJSDevEnvironment.git"
+  },
+  "author": {
+    "name": "Dmitry Makhnev",
+    "email": "dmitry.ivshin@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bump": "^0.3.0",
+    "gulp-git": "^1.2.0",
+    "gulp-gitmodified": "^0.1.0",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-webpack": "^1.3.2",
+    "jasmine-core": "^2.2.0",
+    "jsx-loader": "^0.13.1",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-effroi": "0.0.0",
+    "karma-jasmine": "^0.3.5",
+    "karma-sourcemap-loader": "^0.3.4",
+    "karma-webpack": "^1.5.0",
+    "webpack": "^1.8.5",
+    "yargs": "^3.7.2"
+  }
+}
